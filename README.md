@@ -2,6 +2,8 @@
 
 More information about this project will be provided soon. 
 
+
+
 ## [Classifying CAPTHA images - with and without a neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
