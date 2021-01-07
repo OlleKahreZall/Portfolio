@@ -1,3 +1,5 @@
+geometry: left=38mm, right=25mm, top=25mm, bottom=25mm
+
 ## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
