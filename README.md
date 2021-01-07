@@ -12,7 +12,7 @@ The data used are simplified CAPTCHA (Completely Automated Public Turing test to
 The accuracy of my own algorithm on the data is 99.7% and with the CNN, the accuracy score on the training and validation iamges is 99.95% and 100%, respectively. The former is, though, faster than the latter; it took 1.2 seconds for my algorithm to finish and 7.4 seconds for the CNN. My algorithm may be a little bit faster, but I would argue that the CNN is more suitable if new images are given to both classifiers. In addition, constructing the algorithm took much longer than designing the CNN... 
 
 The machine won again!
-</pre>
+
 ## [Web scraping project - extracting data from the top 100 biggest cryptocurrencies](https://github.com/OlleKahreZall/Web-scraping-project)
 
 * In this project, I have scraped the 100 biggest cryptocurrencies based on their market cap from [coinmarketcap.com](https://coinmarketcap.com/). 
