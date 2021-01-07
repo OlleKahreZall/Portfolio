@@ -1,9 +1,9 @@
-<pre>
+<h>
 ## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/classification.PNG?raw=true" alt="Sublime's custom image"/>
-</p>
+</h>
 
 In this project, I have classified numbers which appear in images with two different classifiers: partly an algorithm I built myself and, partly a custom deisgned shallow convolutional neural network (CNN).
 
