@@ -1,4 +1,8 @@
-geometry: left=38mm, right=25mm, top=25mm, bottom=25mm
+div {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
 
 ## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
