@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 div {
   border: 1px solid black;
   margin: 25px 50px 75px 100px;
   background-color: lightblue;
 }
 
+<div>
 ## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
@@ -43,3 +48,4 @@ My idea is that I want to generate my own music by training a recurrent neural n
 Using music as data and working with RNNs are new to me, so I would just want to point out that this is just in the idea phase.  
 
 More information will be provided soon!
+<div>
