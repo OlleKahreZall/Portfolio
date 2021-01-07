@@ -30,8 +30,8 @@ Furthermore, the ipynb file [data-cleaning_visualization.ipynb](https://github.c
 
 Since I am quite interested in both music and machine learning, why not combine these to subjects together? 
 
-My idea is that I want to generate my own music by training a recurrent neural network (RNN), where I would use my own music as training data. As for now, I would want feed the RNN with notes in a specific key, like E for example, from the pentatonic or blues scale; the former and the latter scale consists of five and six notes respectively. I would need to discretize the soundwaves of the notes, so the actual soundwaves will be lost (the module Music21 in Python would be plausible to use for this purpose). However, in this setting, the RNN will only need to classify five or six different notes, but with different octaves (the distance between one note and another note that's double its frequency). 
+My idea is that I want to generate my own music by training a recurrent neural network (RNN); a plausible machine learning model in this case, since the current input depends on the previous output. As for now, I think would want feed the RNN with notes in a specific key, like E for example, from the pentatonic or blues scale; the former and latter scale consists of five and six notes respectively. I would need to discretize the soundwaves of the notes, so the actual soundwaves will be lost (the module Music21 in Python would be plausible to use for this purpose). However, in this setting, the RNN would only need to classify five or six different notes, but with different octaves (the distance between one note and another note that's double its frequency). 
 
-Using music as data and working with RNNs are new to me, so this is just in the idea phase at the moment. 
+Using music as data and working with RNNs are new to me, so I would just want to point out that this is just in the idea phase.  
 
 More information will be provided soon!
