@@ -48,4 +48,4 @@ My idea is that I want to generate my own music by training a recurrent neural n
 Using music as data and working with RNNs are new to me, so I would just want to point out that this is just in the idea phase.  
 
 More information will be provided soon!
-</div>
+<\div>
