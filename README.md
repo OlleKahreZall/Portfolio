@@ -26,7 +26,7 @@ Furthermore, the ipynb file [data-cleaning_visualization.ipynb](https://github.c
 ![](Images/volume.png)
 ![](Images/market_cap.png)
 
-## [Upcoming project - generating music with a recurrent neural network]
+## Upcoming project - generating music with a recurrent neural network
 
 More information about this project will be provided soon. 
 
