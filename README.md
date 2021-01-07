@@ -1,6 +1,6 @@
 ## [Classifying CAPTHA images - with and without a neural network](https://github.com/OlleKahreZall/Image-classification)
 
-![](Images/classification.png)
+![](Images/classification.PNG)
 
 In this project, I have classified numbers which appear in images with two different classifiers: partly an algorithm I built myself and, partly a custom deisgned shallow convolutional neural network (CNN).
 
