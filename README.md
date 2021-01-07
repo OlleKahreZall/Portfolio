@@ -1,9 +1,3 @@
-## [Upcoming project - generating music with a recurrent neural network](https://github.com/OlleKahreZall/Generating-music)
-
-More information about this project will be provided soon. 
-
-
-
 ## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
@@ -31,3 +25,8 @@ Furthermore, the ipynb file [data-cleaning_visualization.ipynb](https://github.c
 ![](Images/close.png)
 ![](Images/volume.png)
 ![](Images/market_cap.png)
+
+## [Upcoming project - generating music with a recurrent neural network]
+
+More information about this project will be provided soon. 
+
