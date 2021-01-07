@@ -1,4 +1,4 @@
-## Upcoming project - generating music with an recurrent neural network
+## [Upcoming project - generating music with an recurrent neural network](https://github.com/OlleKahreZall/Generating-music)
 
 More information about this project will be provided soon. 
 
