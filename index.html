@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5VKPKXWPP"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-R5VKPKXWPP');
+      </script>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title> Portfolio | Olle Kåhre Zäll </title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Classifying CAPTHA images - with and without a convolutional neural network" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://ollekahrezall.github.io/Portfolio/" />
+<meta property="og:url" content="https://ollekahrezall.github.io/Portfolio/" />
+<meta property="og:site_name" content="Portfolio" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Classifying CAPTHA images - with and without a convolutional neural network","url":"https://ollekahrezall.github.io/Portfolio/","name":"Portfolio","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/Portfolio/assets/css/style.css?v=d296fbbec6dc0889a61e2d510398e26f4996957a">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Portfolio</h1>
+      
+    </section>
+
+    <section class="main-content">
+      <h2 id="classifying-captha-images---with-and-without-a-convolutional-neural-network"><a href="https://github.com/OlleKahreZall/Image-classification">Classifying CAPTHA images - with and without a convolutional neural network</a></h2>
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/classification.PNG?raw=true" alt="Sublime's custom image" />
+</p>
+
+<p>In this project, the goal was to classify the numbers 0, 1 and 2 in CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) images. In total, the dataset consists of 1200 images and the dataset itself was given in an image analysis course at Uppsala University. I solved this task with two different classifiers: partly with an algorithm I built myself and, partly with a custom designed shallow convolutional neural network (CNN) using the library Keras.</p>
+
+<p>The accuracy performance of my algorithm is 99.7% and with the CNN, the accuracy score on the training and validation images is 99.95% and 100%, respectively. The former is, though, faster than the latter; it took 1.2 seconds for my algorithm to finish and 7.4 seconds for the CNN. My algorithm may be a little bit faster, but the CNN, however, is a more generalizable model than my algorithm and a better classifier because of this. In addition, constructing the algorithm took much longer than designing the CNN…</p>
+
+<p>The machine won again!</p>
+
+<h2 id="web-scraping-project---extracting-data-from-the-top-100-biggest-cryptocurrencies"><a href="https://github.com/OlleKahreZall/Web-scraping-project">Web scraping project - extracting data from the top 100 biggest cryptocurrencies</a></h2>
+
+<ul>
+  <li>In this project, I have scraped the 100 biggest cryptocurrencies based on their market cap from <a href="https://coinmarketcap.com/">coinmarketcap.com</a>.</li>
+  <li>The web-crawling framework Scrapy was used. In addition, the portable framework Selenium was used since the web pages were dynamic.</li>
+  <li>Information such as the daily volume, market cap, highest/lowest value for each cryptocurrency have been extracted.</li>
+  <li>This spider has fetched each cryptocurrency’s data from its first day were documented on the cryptocurrency market (according to <a href="https://coinmarketcap.com/">coinmarketcap.com</a>) to the 2nd of December.</li>
+  <li>In total, more than 800 000 data points have been extracted.</li>
+</ul>
+
+<p>The web pages are scraped by using the script <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/cryptoscraper.py">cryptoscraper</a> (see the file for more details). All the data collected from the web pages were stored in the csv file <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/cryptocurrencies_top-100.csv">cryptocurrencies_top-100.csv</a>.</p>
+
+<p>Furthermore, preprocessing of the data is done in the ipynb file <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/data-cleaning_visualization.ipynb">data-cleaning_visualization.ipynb</a>. In addition, this script is also used to visualize the historical data of the three largest cryptocurrencies with respect to their market cap (December 2020). The figures below show the value (when the market closes), volume and the market cap for each cryptocurrency.</p>
+
+<p><img src="/Portfolio/Images/close.png" alt="" />
+<img src="/Portfolio/Images/volume.png" alt="" />
+<img src="/Portfolio/Images/market_cap.png" alt="" /></p>
+
+<h2 id="upcoming-project---generating-music-with-a-recurrent-neural-network">Upcoming project - generating music with a recurrent neural network</h2>
+
+<p>Since I am quite interested in both music and machine learning, why not combine these to subjects together?</p>
+
+<p>My idea is that I want to generate my own music by training a recurrent neural network (RNN); a plausible machine learning model in this case, since the current input depends on the previous output. As for now, I think would want feed the RNN with notes in a specific key, like E for example, from the pentatonic or blues scale; the former and latter scale consists of five and six notes, respectively. I would need to discretize the soundwaves of the notes, so the actual soundwaves will be lost (the module Music21 in Python would be plausible to use for this purpose). However, in this setting, the RNN would only need to classify five or six different notes, but with different octaves (the distance between one note and another note that is double its frequency).</p>
+
+<p>Using music as data and working with RNNs are new to me, so I would just want to point out that this is just in the idea phase.</p>
+
+<p>More information will be provided soon!</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/OlleKahreZall/Portfolio">Portfolio</a> is maintained by <a href="https://github.com/OlleKahreZall">OlleKahreZall</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5VKPKXWPP"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-R5VKPKXWPP');
+      </script>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title> Portfolio | Olle Kåhre Zäll </title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Classifying CAPTHA images - with and without a convolutional neural network" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://ollekahrezall.github.io/Portfolio/" />
+<meta property="og:url" content="https://ollekahrezall.github.io/Portfolio/" />
+<meta property="og:site_name" content="Portfolio" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Classifying CAPTHA images - with and without a convolutional neural network","url":"https://ollekahrezall.github.io/Portfolio/","name":"Portfolio","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/Portfolio/assets/css/style.css?v=d296fbbec6dc0889a61e2d510398e26f4996957a">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Portfolio</h1>
+      
+    </section>
+
+    <section class="main-content">
+      <h2 id="classifying-captha-images---with-and-without-a-convolutional-neural-network"><a href="https://github.com/OlleKahreZall/Image-classification">Classifying CAPTHA images - with and without a convolutional neural network</a></h2>
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/classification.PNG?raw=true" alt="Sublime's custom image" />
+</p>
+
+<p>In this project, the goal was to classify the numbers 0, 1 and 2 in CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) images. In total, the dataset consists of 1200 images and the dataset itself was given in an image analysis course at Uppsala University. I solved this task with two different classifiers: partly with an algorithm I built myself and, partly with a custom designed shallow convolutional neural network (CNN) using the library Keras.</p>
+
+<p>The accuracy performance of my algorithm is 99.7% and with the CNN, the accuracy score on the training and validation images is 99.95% and 100%, respectively. The former is, though, faster than the latter; it took 1.2 seconds for my algorithm to finish and 7.4 seconds for the CNN. My algorithm may be a little bit faster, but the CNN, however, is a more generalizable model than my algorithm and a better classifier because of this. In addition, constructing the algorithm took much longer than designing the CNN…</p>
+
+<p>The machine won again!</p>
+
+<h2 id="web-scraping-project---extracting-data-from-the-top-100-biggest-cryptocurrencies"><a href="https://github.com/OlleKahreZall/Web-scraping-project">Web scraping project - extracting data from the top 100 biggest cryptocurrencies</a></h2>
+
+<ul>
+  <li>In this project, I have scraped the 100 biggest cryptocurrencies based on their market cap from <a href="https://coinmarketcap.com/">coinmarketcap.com</a>.</li>
+  <li>The web-crawling framework Scrapy was used. In addition, the portable framework Selenium was used since the web pages were dynamic.</li>
+  <li>Information such as the daily volume, market cap, highest/lowest value for each cryptocurrency have been extracted.</li>
+  <li>This spider has fetched each cryptocurrency’s data from its first day were documented on the cryptocurrency market (according to <a href="https://coinmarketcap.com/">coinmarketcap.com</a>) to the 2nd of December.</li>
+  <li>In total, more than 800 000 data points have been extracted.</li>
+</ul>
+
+<p>The web pages are scraped by using the script <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/cryptoscraper.py">cryptoscraper</a> (see the file for more details). All the data collected from the web pages were stored in the csv file <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/cryptocurrencies_top-100.csv">cryptocurrencies_top-100.csv</a>.</p>
+
+<p>Furthermore, preprocessing of the data is done in the ipynb file <a href="https://github.com/OlleKahreZall/Web-scraping-project/blob/main/data-cleaning_visualization.ipynb">data-cleaning_visualization.ipynb</a>. In addition, this script is also used to visualize the historical data of the three largest cryptocurrencies with respect to their market cap (December 2020). The figures below show the value (when the market closes), volume and the market cap for each cryptocurrency.</p>
+
+<p><img src="/Portfolio/Images/close.png" alt="" />
+<img src="/Portfolio/Images/volume.png" alt="" />
+<img src="/Portfolio/Images/market_cap.png" alt="" /></p>
+
+<h2 id="upcoming-project---generating-music-with-a-recurrent-neural-network">Upcoming project - generating music with a recurrent neural network</h2>
+
+<p>Since I am quite interested in both music and machine learning, why not combine these to subjects together?</p>
+
+<p>My idea is that I want to generate my own music by training a recurrent neural network (RNN); a plausible machine learning model in this case, since the current input depends on the previous output. As for now, I think would want feed the RNN with notes in a specific key, like E for example, from the pentatonic or blues scale; the former and latter scale consists of five and six notes, respectively. I would need to discretize the soundwaves of the notes, so the actual soundwaves will be lost (the module Music21 in Python would be plausible to use for this purpose). However, in this setting, the RNN would only need to classify five or six different notes, but with different octaves (the distance between one note and another note that is double its frequency).</p>
+
+<p>Using music as data and working with RNNs are new to me, so I would just want to point out that this is just in the idea phase.</p>
+
+<p>More information will be provided soon!</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/OlleKahreZall/Portfolio">Portfolio</a> is maintained by <a href="https://github.com/OlleKahreZall">OlleKahreZall</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
