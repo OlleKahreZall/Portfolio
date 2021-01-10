@@ -24,7 +24,7 @@ Furthermore, preprocessing of the data is done in the ipynb file [data-cleaning_
 
 ![](Images/close.png)
 ![](Images/volume.png)
-![](Images/market_cap.png)
+![](Images/market_cap1.png)
 
 ## Upcoming project - generating music with a recurrent neural network
 
