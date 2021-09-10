@@ -1,4 +1,4 @@
-## [Classifying CAPTHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
+## [Classifying CAPTCHA images - with and without a convolutional neural network](https://github.com/OlleKahreZall/Image-classification)
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/classification.PNG?raw=true" alt="Sublime's custom image"/>
